@@ -1,0 +1,120 @@
+1. IDENTIFICAÇÃO E ESCOPO
+Última Atualização: 01/02/2026
+
+Esta Política de Privacidade descreve como o aplicativo Back Cam Selfie: Remote Mirror ("nós", "nosso" ou "o App") coleta, usa e compartilha informações.
+
+1.1. Desenvolvedor
+Nome: Henio Magalhães
+Contato para Questões de Privacidade: heniomagalhaesdev@gmail.com
+
+1.2. Aplicabilidade
+Esta política se aplica exclusivamente ao aplicativo:
+
+Back Cam Selfie: Remote Mirror (com.heniomagalhaes.backcamselfie)
+
+2. TIPOS DE DADOS COLETADOS
+Para fornecer e melhorar o serviço, coletamos as seguintes informações:
+
+2.1. Dados Coletados Automaticamente
+Dados Técnicos do Dispositivo:
+
+Endereço IP: Utilizado para a comunicação em rede.
+Informações da Rede Wi-Fi: Usado para descobrir e conectar dispositivos próximos (Nearby Connections API).
+Identificadores de Publicidade (AdID): Coletado pelo Google AdMob para exibir anúncios.
+Logs de Falha (Crash Logs) e Diagnósticos: Coletados para identificar e corrigir problemas no aplicativo.
+
+Dados de Uso do Aplicativo:
+
+Interações com funcionalidades do app, como cliques em botões e fluxo de navegação, para análise de usabilidade.
+
+2.2. Dados Coletados com sua Permissão Explícita
+Câmera (android.permission.CAMERA):
+
+O acesso é necessário para a funcionalidade principal do app, que é capturar fotos e transmitir a imagem da câmera.
+
+Armazenamento (Imagens e Vídeos):
+
+A permissão é solicitada para salvar as fotos capturadas pelo aplicativo na galeria do seu dispositivo.
+
+
+Localização Aproximada (android.permission.ACCESS_COARSE_LOCATION):
+
+Utilizada pela API Nearby Connections para descobrir dispositivos próximos com maior eficácia, principalmente em versões mais recentes do Android.
+
+
+Bluetooth (android.permission.BLUETOOTH_ADVERTISE, BLUETOOTH_CONNECT, BLUETOOTH_SCAN):
+
+Utilizado pela API Nearby Connections como uma das estratégias para descobrir e conectar-se a dispositivos próximos.
+
+3. FINALIDADE DA COLETA (POR QUE COLETAMOS OS DADOS)
+A coleta de dados é realizada com os seguintes objetivos:
+
+3.1. Funcionalidade Principal do App
+Câmera, Wi-Fi, Bluetooth, Localização: Essenciais para a função de descoberta, conexão e controle remoto da câmera entre dispositivos. Sem esses dados, o aplicativo não pode operar.
+Armazenamento: Para salvar as fotos que você captura usando o app diretamente na sua galeria.
+
+3.2. Publicidade
+Identificador de Publicidade: Utilizamos o serviço Google AdMob para exibir anúncios no aplicativo, o que nos ajuda a manter o app gratuito. Este identificador é usado para fornecer anúncios mais relevantes. Também oferecemos uma opção de recompensa (Rewarded Ad) para remover a marca d'água das fotos.
+
+3.3. Análise e Melhoria do App (Analytics)
+Logs de Falha e Dados de Uso: Analisamos essas informações para entender como os usuários interagem com o aplicativo, identificar erros (crashes), e planejar melhorias em funcionalidades e na experiência de uso.
+
+4. COMPARTILHAMENTO DE DADOS COM TERCEIROS
+Não vendemos seus dados pessoais. No entanto, compartilhamos informações com os seguintes parceiros para viabilizar as funcionalidades do aplicativo:
+
+4.1. Serviços de Publicidade
+Google AdMob & AdSense:
+Dados: Identificador de Publicidade (AdID), endereço IP e dados de interação com anúncios.
+Finalidade: Exibir anúncios personalizados e recompensados.
+Política de Privacidade do Parceiro: https://policies.google.com/privacy
+
+4.2. Serviços de Conectividade
+API Google Nearby Connections:
+Dados: Informações de Wi-Fi, Bluetooth e Localização Aproximada.
+Finalidade: Descobrir e estabelecer a conexão P2P (ponto-a-ponto) entre os seus dispositivos. O Google atua como intermediário para facilitar essa conexão.
+Política de Privacidade do Parceiro: https://policies.google.com/privacy
+
+4.3. Análise de Desempenho
+Google Analytics for Firebase / Crashlytics:
+Dados: Logs de falha, dados de uso anônimos.
+Finalidade: Monitorar a estabilidade do app e entender o comportamento do usuário para melhorias.
+Política de Privacidade do Parceiro: https://firebase.google.com/support/privacy
+
+5. SEUS DIREITOS E CONTROLE SOBRE SEUS DADOS
+Respeitamos sua privacidade e garantimos seus direitos de acordo com as principais legislações globais (GDPR, LGPD).
+
+5.1. Seus Direitos
+Você tem o direito de:
+
+Acesso: Solicitar informações sobre quais dados pessoais temos sobre você.
+Retificação: Pedir a correção de dados incompletos ou incorretos.
+Exclusão (Direito ao Esquecimento): Solicitar a exclusão dos seus dados, na medida do possível.
+Revogação de Consentimento: Você pode revogar as permissões concedidas (Câmera, Localização, etc.) a qualquer momento através das configurações do seu dispositivo Android. A revogação pode impactar a funcionalidade do app.
+
+5.2. Exclusão de Conta e Dados
+Como o BackCamSelfie não exige a criação de uma conta de usuário, não há um mecanismo de exclusão de conta. Os dados coletados são primariamente técnicos e anônimos ou armazenados localmente no seu dispositivo (fotos). Para remover os dados associados ao app, você pode limpar o cache e os dados do aplicativo nas configurações do seu dispositivo ou simplesmente desinstalá-lo.
+
+Para exercer seus direitos, entre em contato conosco pelo e-mail fornecido na Seção 1.
+
+6. RETENÇÃO E ARMAZENAMENTO DE DADOS
+6.1. Retenção
+Mantemos os dados técnicos e de uso (como logs e analytics) apenas pelo tempo necessário para cumprir as finalidades descritas nesta política, como análise de bugs e melhoria do serviço.
+
+6.2. Armazenamento
+As fotos que você tira com o BackCamSelfie são salvas diretamente no armazenamento local do seu dispositivo (galeria). Nós não armazenamos suas fotos em nossos servidores.
+Os dados técnicos podem ser processados e armazenados em servidores de nossos parceiros (Google), que podem estar localizados fora do seu país de residência.
+
+7. SEGURANÇA DA INFORMAÇÃO
+Estamos comprometidos em proteger seus dados. Adotamos as seguintes medidas:
+
+Comunicação Criptografada: A conexão entre os dispositivos realizada pela API Nearby Connections utiliza criptografia para proteger os dados em trânsito, incluindo o stream da câmera.
+Minimização de Dados: Coletamos apenas os dados estritamente necessários para a operação e melhoria do aplicativo.
+Dados Locais: Suas fotos são armazenadas localmente, sob o controle do sistema de segurança do seu próprio dispositivo.
+
+8. TRANSFERÊNCIA INTERNACIONAL DE DADOS
+Nossos parceiros (como o Google para AdMob e Nearby Connections) são empresas globais. Ao usar nosso aplicativo, você concorda que seus dados técnicos (como ID de publicidade e dados de rede) podem ser transferidos e processados em servidores localizados fora do seu país de origem, como os Estados Unidos, onde as leis de proteção de dados podem ser diferentes das do seu país.
+
+9. ALTERAÇÕES NESTA POLÍTICA DE PRIVACIDADE
+Podemos atualizar esta Política de Privacidade periodicamente para refletir mudanças em nossas práticas ou por outras razões operacionais, legais ou regulatórias.
+
+Quando fizermos alterações, atualizaremos a data da "Última Atualização" no topo deste documento e na página da Play Store. Recomendamos que você revise esta política regularmente para se manter informado.
